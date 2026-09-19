@@ -1,0 +1,22 @@
+CHSI PDF Translator / 学籍报告英文助手
+Copyright 2026 CHSI PDF Translator contributors
+
+This project is licensed under the Apache License, Version 2.0.
+
+Upstream template, fonts, coordinate layout and workflow:
+Online-Verification-Report-Translator20260714 by muxiymmm
+https://github.com/muxiymmm/Online-Verification-Report-Translator20260714
+Licensed under Apache-2.0.
+
+This project implements automatic PDF extraction, offline terminology translation,
+and a desktop review workflow. It redistributes a sanitized derivative of the
+upstream PDF template and its unmodified Roboto Regular/Medium fonts. Hidden
+example identity text, portrait and QR resources have been removed; visual layout
+is preserved. Since 1.2.0, main-table labels and values are redrawn and reflowed
+according to selected source fields; source-note text comes from the Chinese document.
+See chsi_translator/data/TEMPLATE_PROVENANCE.md for pinned revisions and changes.
+Font data copyright Google 2011. Roboto is licensed under Apache-2.0.
+
+CHSI and institutional names identify the source document or institutions.
+This application is not affiliated with CHSI or the Ministry of Education.
+Third-party software retains its respective copyright and license notices.

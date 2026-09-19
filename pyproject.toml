@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chsi-pdf-translator"
+version = "1.2.0"
+description = "Local-first Chinese student record PDF translator with a desktop review interface"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = [
+  "pdfplumber>=0.11,<0.12",
+  "pypdf>=5,<7",
+  "pypdfium2>=5.9,<6",
+  "Pillow>=12.2,<13",
+  "reportlab>=4.2,<5",
+  "pypinyin>=0.53,<0.56",
+]
+
+[project.optional-dependencies]
+gui = ["PySide6-Essentials>=6.8,<6.12"]
+test = ["pytest>=8,<10"]
+dev = ["pytest>=8,<10", "pyinstaller>=6.12,<7"]
+
+[project.scripts]
+chsi-translator = "chsi_translator.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["chsi_translator*"]
+
+[tool.setuptools.package-data]
+chsi_translator = ["data/*.json", "data/*.pdf", "data/*.md", "data/fonts/*.ttf"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

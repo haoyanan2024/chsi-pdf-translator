@@ -1,0 +1,22 @@
+{
+  "Python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "PySide6-Essentials": "6.11.2",
+  "shiboken6": "6.11.2",
+  "pdfplumber": "0.11.10",
+  "pdfminer.six": "20260107",
+  "pypdf": "6.19.0",
+  "pypdfium2": "5.13.0",
+  "reportlab": "4.5.1",
+  "Pillow": "12.3.0",
+  "pypinyin": "0.55.0",
+  "charset-normalizer": "3.5.1",
+  "cryptography": "50.0.1",
+  "cffi": "2.1.1",
+  "pycparser": "3.0",
+  "pyinstaller": "6.22.3",
+  "pyinstaller-hooks-contrib": "2026.7",
+  "altgraph": "0.17.5",
+  "packaging": "26.3",
+  "setuptools": "84.0.0",
+  "pywin32-ctypes": "0.2.3"
+}
