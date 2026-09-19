@@ -14,7 +14,6 @@
 | 安装软件、导入 PDF、校准英文、控制字段和导出 | [详细操作指南](docs/USER_GUIDE.md) |
 | 解决识别、排版、安装或导出问题 | [常见问题](docs/USER_GUIDE.md#常见问题) |
 | 运行 Python、使用命令行/API、打包 Windows 软件 | [开发与构建指南](docs/DEVELOPMENT.md) |
-| 上传源码、发布 EXE、维护后续版本 | [GitHub 发布完整流程](docs/PUBLISHING.md) |
 | 查看版本变化、实测范围、参与改进 | [更新记录](CHANGELOG.md) · [验证记录](VALIDATION.md) · [贡献指南](CONTRIBUTING.md) |
 
 ![校准界面，全部为虚构测试资料](docs/images/demo-main.png)
